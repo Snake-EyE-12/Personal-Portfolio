@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-green: #00FF9D;
+  --background-dark: #000000;
+  --background-light: #1A1A1A;
+  --text-primary: #FFFFFF;
+  --text-secondary: #E0E0E0;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-background-dark to-background-light;
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 text-text-primary hover:text-primary-green transition-colors duration-300;
+  }
+  
+  .project-card {
+    @apply bg-background-light p-6 rounded-lg shadow-lg hover:shadow-primary-glow transition-all duration-300;
+  }
+  
+  .button-primary {
+    @apply bg-primary-green text-background-dark px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors duration-300;
+  }
+} 
