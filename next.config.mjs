@@ -10,6 +10,15 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '',
   trailingSlash: true,
+  distDir: 'out',
+  async rewrites() {
+    return [
+      {
+        source: '/Portfolio',
+        destination: '/',
+      },
+    ]
+  },
 }
 
-module.exports = nextConfig 
+export default nextConfig 
