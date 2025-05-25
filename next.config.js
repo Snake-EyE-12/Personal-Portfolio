@@ -3,9 +3,12 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    remotePatterns: [],
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio/',
+  basePath: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '',
   trailingSlash: true,
 }
 
