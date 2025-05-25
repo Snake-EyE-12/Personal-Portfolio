@@ -11,6 +11,9 @@ const nextConfig = {
   assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio/' : '',
   trailingSlash: true,
   distDir: 'out',
+  experimental: {
+    appDir: true
+  },
   async rewrites() {
     return [
       {
