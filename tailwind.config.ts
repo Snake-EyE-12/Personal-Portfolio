@@ -22,6 +22,7 @@ const config: Config = {
         'slide-in-left': 'slideInLeft 0.5s ease-out',
         'slide-in-right': 'slideInRight 0.5s ease-out',
         'fade-in': 'fadeIn 0.5s ease-in forwards',
+        'weave': 'weave 15s linear infinite',
       },
       keyframes: {
         slideInLeft: {
@@ -35,6 +36,14 @@ const config: Config = {
         fadeIn: {
           '0%': { opacity: '0', transform: 'translateY(10px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        weave: {
+          '0%': { 
+            transform: 'translate(-25%, -25%)'
+          },
+          '100%': { 
+            transform: 'translate(-75%, -75%)'
+          }
         }
       },
     },

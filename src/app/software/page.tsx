@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
 import Link from 'next/link'
+import FractalBackground from '@/components/FractalBackground'
 
 type SoftwareProject = {
   title: string;
@@ -48,6 +49,7 @@ const projects: SoftwareProject[] = [
 export default function SoftwarePage() {
   return (
     <div className="flex flex-col min-h-screen">
+      <FractalBackground />
       <Header />
       
       <main className="flex-grow container mx-auto px-4 pt-24 pb-16">
