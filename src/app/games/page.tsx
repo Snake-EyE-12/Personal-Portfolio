@@ -21,7 +21,7 @@ const games: GameProject[] = [
     title: "Javelin of Speed",
     description: "A small game about movement and throwing around a javelin trying to score the most points, made to build out a completely dynamic and reusable character controller.",
     purpose: "A technical showcase developed to demonstrate advanced character controller systems and fluid movement mechanics, pushing the boundaries of Unity's physics engine.",
-    image: "/games/javelinGame.png",
+    image: "./games/javelinGame.png",
     link: "https://snake-eye-12.itch.io/javelin-of-speed",
     technologies: ["Unity", "Shaders", "C#"]
   },
@@ -29,7 +29,7 @@ const games: GameProject[] = [
     title: "Lex Talionis A",
     description: "A team-based, 4 player, couch co-op where aliens fight astronauts, drones, and bosses for revenge against humanity. Choose from four aliens with unique abilities and survive together in this 2D Run n' Gun Adventure.",
     purpose: "Developed as part of Neumont Game Studios' professional development program, leading a team of five developers through a comprehensive 10-week production cycle.",
-    image: "/games/lexTalionisAGame.png",
+    image: "./games/lexTalionisAGame.png",
     link: "https://store.steampowered.com/app/3512790/Lex_Talionis_A/",
     technologies: ["Steam", "Unity", "Game Design"]
   },
@@ -37,7 +37,7 @@ const games: GameProject[] = [
     title: "Contiled",
     description: "A turn based dungeon crawling game where your team of heroes strengthen and overcome a labyrinth's monsters as the floor beneath your feet constantly changes!",
     purpose: "Created as a capstone project showcasing advanced game systems design and modding capabilities, developed independently over an intensive 10-week period.",
-    image: "/games/contiledGame.png",
+    image: "./games/contiledGame.png",
     link: "https://snake-eye-12.itch.io/contiled",
     technologies: ["Unity", "Json", "Modding"]
   },
@@ -45,7 +45,7 @@ const games: GameProject[] = [
     title: "Spectres and Spirits",
     description: "An engaging fast-paced game that allows players to possess various characters, utilizing their abilities and acquired enhancements to overcome challenging bosses.",
     purpose: "Award-winning entry (3rd place) in the GoingIndie game jam, demonstrating rapid prototyping and team scaling from 3 to 6 developers within a 2-week development sprint.",
-    image: "/games/spectresSpiritsGame.png",
+    image: "./games/spectresSpiritsGame.png",
     link: "https://jayvlyn.itch.io/spectres-and-spirits",
     technologies: ["Design Patterns", "Unity", "Teamwork"]
   },
@@ -53,7 +53,7 @@ const games: GameProject[] = [
     title: "Time Slice",
     description: "A thrilling time-based challenge that requires players to master the game's map and achieve maximum efficiency within a limited timeframe.",
     purpose: "First-place winner at Neumont Game Jam, created by a team of four sophomore students in just 48 hours, showcasing rapid development and efficient team coordination.",
-    image: "/games/timeSliceGame.png",
+    image: "./games/timeSliceGame.png",
     link: "https://jayvlyn.itch.io/time-slice",
     technologies: ["Level Design", "Unity", "C#"]
   },
@@ -61,7 +61,7 @@ const games: GameProject[] = [
     title: "Fat Rat And Spouse Mouse",
     description: "A minimalist game featuring dual-character control aimed at maximizing scores while evading environmental hazards.",
     purpose: "Award-winning game jam entry (3rd place) that explores innovative dual-character mechanics and procedural level generation within tight time constraints.",
-    image: "/games/fatRatMouseGame.png",
+    image: "./games/fatRatMouseGame.png",
     link: "https://jayvlyn.itch.io/fat-rat-and-spouse-mouse",
     technologies: ["Procedural Generation", "Dual Characters", "Unity"]
   },
@@ -69,7 +69,7 @@ const games: GameProject[] = [
     title: "Brad to the Bone",
     description: "A light-hearted game that places players in the role of the antagonist, tasked with disrupting children's sandcastle constructions for points.",
     purpose: "First-place winning entry as a freshman at Neumont Game Jam, demonstrating strong game design fundamentals and creative mechanics implementation.",
-    image: "/games/bradToTheBoneGame.png",
+    image: "./games/bradToTheBoneGame.png",
     link: "https://jayvlyn.itch.io/brad-to-the-bone",
     technologies: ["Unity", "C#", "Game Design"]
   },
@@ -77,7 +77,7 @@ const games: GameProject[] = [
     title: "PackageUp",
     description: "A single-screen puzzle game designed to simulate the complexities of urban traffic management, encouraging strategic thinking and efficient resource allocation.",
     purpose: "Developed for the Confounding Calendar challenge, focusing on creating an engaging single-screen experience with tight puzzle design and time management mechanics.",
-    image: "/games/packageUpGame.png",
+    image: "./games/packageUpGame.png",
     link: "https://snake-eye-12.itch.io/packageup",
     technologies: ["PuzzleScript", "Level Design", "Time Crunch"]
   }
