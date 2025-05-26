@@ -107,7 +107,7 @@ export default function GamesPage() {
                   animationDelay: `${index * 0.1}s`,
                 }}
               >
-                <div className="relative h-48 mb-4 overflow-hidden rounded-lg">
+                <div className="relative h-64 mb-4 overflow-hidden rounded-lg">
                   <Image
                     src={game.image}
                     alt={game.title}
