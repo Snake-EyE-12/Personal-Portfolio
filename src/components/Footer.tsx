@@ -6,22 +6,22 @@ import Link from 'next/link'
 export default function Footer() {
   const socialLinks = [
     {
-      icon: '/github-icon.png',
+      icon: './github-icon.png',
       href: 'https://github.com/Snake-EyE-12',
       alt: 'GitHub'
     },
     {
-      icon: '/itchio-icon.png',
+      icon: './itchio-icon.png',
       href: 'https://snake-eye-12.itch.io/',
       alt: 'Itch.io'
     },
     {
-      icon: '/linkedin-icon.png',
+      icon: './linkedin-icon.png',
       href: 'https://www.linkedin.com/in/chase-guymon/',
       alt: 'LinkedIn'
     },
     {
-      icon: '/email-icon.png',
+      icon: './email-icon.png',
       href: 'mailto:chase.guymon@q.com',
       alt: 'Email'
     }

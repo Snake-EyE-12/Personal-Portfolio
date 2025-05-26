@@ -18,7 +18,7 @@ const projects: SoftwareProject[] = [
     description: "A powerful application that...",
     purpose: "Developed to solve the problem of...",
     technologies: ["React", "Node.js", "TypeScript"],
-    image: "/project1.jpg",
+    image: "./project1.jpg",
     link: "https://github.com/yourusername/project1"
   },
   // Add more projects here

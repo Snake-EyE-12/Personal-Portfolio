@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
             <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-primary-green">
               <Image
-                src="/portfolio.png"
+                src="./portfolio.png"
                 alt="Profile"
                 fill
                 className="object-cover"
@@ -28,7 +28,7 @@ export default function Home() {
                 Game Developer | Software Engineer
               </p>
               <p className="text-text-secondary">
-                I'm a developer with a focus on thoughtful design and clean, maintainable code. I’ve been building things since I was ten — now I apply that same curiosity to creating software and games that are both well-crafted and user-focused. This portfolio is a collection of the projects I’ve built, explored, and learned from along the way.
+                I'm a developer with a focus on thoughtful design and clean, maintainable code. I've been building things since I was ten — now I apply that same curiosity to creating software and games that are both well-crafted and user-focused. This portfolio is a collection of the projects I've built, explored, and learned from along the way.
               </p>
             </div>
           </div>

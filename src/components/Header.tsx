@@ -38,7 +38,7 @@ export default function Header() {
           {/* Add your logo here */}
           <div className="w-10 h-10 bg-primary-green rounded-full overflow-hidden">
             <Image
-              src="/FinalCG.png"
+              src="./FinalCG.png"
               alt="Logo"
               width={40}
               height={40}
